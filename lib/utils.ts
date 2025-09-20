@@ -1,4 +1,3 @@
-// my-church/lib/utils.ts
-export function cn(...classes: (string | undefined | null | false)[]) {
+export function cn(...classes: (string | false | null | undefined)[]) {
   return classes.filter(Boolean).join(" ");
 }
